@@ -58,5 +58,10 @@ public class Dog extends Animal {
     @Override
     public void makeNoise() {
 
+        if (type == "Wolf") {
+            System.out.println("Howl");
+        }
+        bark();
+        System.out.println();
     }
 }
